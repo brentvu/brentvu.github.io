@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>it3 Wiki</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/animations.css" rel="stylesheet">
+  <link href="css/all.css">
+  <link href="css/fontawesome.css">
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+      <div class="sidebar-heading"><a href="/index.html"><img class="img-fluid" src="/img/it3-logo.png" width="200"></a></div>
+      <div class="list-group list-group-flush bg-dark">
+        <a href="index.html" class="list-group-item list-group-item-action bg-dark color-white">Home</a>
+        <a href="/wiki-guide.html" class="list-group-item list-group-item-action bg-dark color-white">Wiki User Guide</a>
+        <a href="/web-3-tech.html" class="list-group-item list-group-item-action bg-dark color-white">Web 3.0 Technology</a>
+        <a href="/third-topic.html" class="list-group-item list-group-item-action bg-dark color-white">Third Topic</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
+        <button class="btn btn-default" id="menu-toggle" onclick="showHideLogo()" ><i class="fad fa-bars fa-2x"></i></button>
+        <div class="navbar-brand ml-3"><img class="img-fluid animated lightSpeedIn" id="hideShowNavLogo" style="display:none;" src="/img/it3-logo.png" width="70"></div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0 animated fadeIn" id="hideShowNavLinks" style="display: none;">
+            <li class="nav-item">
+              <a class="nav-link bold color-white" href="/index.html"><b>Home</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bold color-white" href="/wiki-guide.html"><b>Wiki User Guide</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bold color-white" href="/web-3-tech.html"><b>Web 3.0 Technology</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bold color-white" href="/third-topic.html"><b>Third Topic</b></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+        <h1 class="mt-4">Web 3.0 Technology</h1>
+        <hr style="border-top: 1px solid rgba(0,0,0,0.1);">
+        <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
+        
+        <h3 class="mt-5">Quantum Computing</h3>
+        <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+        
+        <h3 class="mt-5">Augmented Reality</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, assumenda accusamus unde iusto, quibusdam eaque voluptatum similique vero culpa voluptatibus magnam illum odio pariatur id laudantium sed totam at quam.</p>
+
+        <h3 class="mt-5">Virtual Reality</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, assumenda accusamus unde iusto, quibusdam eaque voluptatum similique vero culpa voluptatibus magnam illum odio pariatur id laudantium sed totam at quam.</p>
+      
+        <h3 class="mt-5">Blockchain Methodologies</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, assumenda accusamus unde iusto, quibusdam eaque voluptatum similique vero culpa voluptatibus magnam illum odio pariatur id laudantium sed totam at quam.</p>
+      </div>
+      
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.js"></script>
+  <script src="js/fontawesome.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
