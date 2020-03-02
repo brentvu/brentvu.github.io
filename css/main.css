@@ -58,6 +58,24 @@ p {
   font-size: 18px !important;
 }
 
+.dropdown-menu.show {
+  background: #313131;
+}
+
+a.dropdown-item {
+  color: white;
+  font-weight: 900;
+}
+
+a.dropdown-item:hover {
+  background: #313131;
+  color: #00FFD4;
+}
+
+a#navbarDropdown {
+  font-weight: 900;
+}
+
 .bg-dark {
   background: #313131 !important;
 }
@@ -76,6 +94,10 @@ p {
 
 .nav-link:hover {
   color: #00FFD4 !important;
+}
+
+.nav-link {
+  font-size: 16px !important;
 }
 
 .sub-heading {
